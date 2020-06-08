@@ -1,0 +1,56 @@
+
+#car{
+    height:440px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 900px;
+}
+#car .table tbody tr td img{
+    width: 30px;
+}
+.col-md-3{
+    top: 87px;
+    height:440px;
+    width:20%;
+    margin: 4px -16px 10px;
+    background-color:white;
+    margin-left: 50px;
+    position: relative;
+
+}
+#car .table tbody tr td input{
+    width: 40px;
+    text-align: right;
+}
+#car .table tbody tr td{
+    vertical-align: middle;
+}
+#car .table tbody tfoot{
+    font-size: 18px;
+}
+.box .box-footer:before
+.box .box-footer:after{
+content: " ";
+display: table;
+}
+.box .box-footer:after{
+    clear: both;
+}
+.box .box-header{
+    margin: -5px -15px 2px;
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+#summary table{
+    margin-top: 20px;
+}
+#summary table td{
+    color: #999999;
+}
+#summary table tr.totl td,
+#summary table tr.totl th{
+font-size: 18px;
+font-weight:500;
+}
+

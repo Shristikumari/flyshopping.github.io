@@ -1,0 +1,54 @@
+.col-md-3 #account{
+        height: 80px;
+        width:80%;
+        margin: 4px -16px 10px;
+        background-color:white;
+        position: relative;
+        margin-left: 50px;
+        bottom:85px;
+    
+    }
+    .col-md-3 #account img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    
+.col-md-3 #my{
+    height:490px;
+    width:80%;
+    margin: 4px -16px 10px;
+    background-color:white;
+    position: relative;
+    margin-left: 50px;
+    bottom:99px;
+
+}
+.box-header h3{
+    margin-left:40px;
+    position: relative; 
+    top:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(165, 158, 158);
+
+
+}
+.setting{
+    margin-left:37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(165, 158, 158);
+
+}
+.A p a{
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 8px 8px 8px 50px;
+   text-decoration: none;
+   color:rgb(95, 93, 93);
+   display: block;
+   transition: 0.3s;
+
+}

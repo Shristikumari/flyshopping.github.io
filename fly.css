@@ -1,0 +1,300 @@
+/*.all{
+    background-color: rgb(248, 245, 245);
+}*/
+#some{
+    background-color:rgb(94, 41, 41);
+    width:100%;
+    height:70px;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar i{
+      color: white;
+      position: relative;
+      left: 30px;
+      font-size:15px;
+  }
+  .sidebar{
+      background-color:rgb(94, 41, 41);
+  }
+  .w{
+      text-decoration: none;
+  }
+.w a:hover{
+    background-color: white;
+    text-decoration: none !important;
+
+}  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left:30px;
+    
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(94, 41, 41);
+    color:white;
+    padding: 8px 15px;
+    border:1px solid rgba(217, 217, 223, 0.911);
+    bottom:5px;
+    position: relative;
+    left: 28px;
+  }
+  .openbtn:hover {
+    border:1px solid white;
+
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  .container-fluid img{
+    float: left;
+    width: auto;
+    height:100px;
+    position: relative;
+    bottom:35px;
+    margin-top: 20px;
+}
+
+
+.ser{
+    width:690px;
+    padding:5px;
+    display: inline-block;
+    margin:10px;
+    border:2px solid white ;
+    border-radius: 5px;
+    position: relative;
+    top:10px;
+    left:40px;
+}
+#ico i {
+    position: relative;
+    font-size:16px;
+    color:black;
+    right:5px ;
+    top:10px;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+  
+#c-item a{
+    color:white;
+    font-size:30px;
+    position:relative;
+    height:10px;
+    width:10px;
+    left:60px;
+    top:15px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+#c-item a:hover{
+    border: 1px solid white;
+    text-decoration: none !important;
+
+}
+.g:hover{
+    border: 1px solid white;
+    text-decoration: none !important;
+
+}
+
+
+/* dropdown start */
+#login {
+    color:white;
+    background-color:rgb(94, 41, 41);
+    padding: 3px 30px 3px 30px;
+    font-size:15px;
+    border: none;
+    position: relative;
+    left:30px;
+     }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fae7e7;
+    width: 220px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top:50px;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size:17px;
+    bottom: 20px;
+  }
+#sign{
+    width: 217px;
+    position: relative;
+    height: 30px;
+    background-color: rgb(212, 195, 116);
+
+}
+  .dropdown:hover .dropdown-menu {display: block;}
+  
+  .dropdown:hover #login {
+    border: 1px solid white;
+}
+  
+/* dropdown end */
+.col-sm-3 img{
+    width: 260px;
+    height: 300px;
+    position: relative; 
+}
+.carousel-inner img{
+    width: 100%;
+    margin: auto;
+}
+#myCarousel{
+    position: relative;
+    bottom:70px;
+
+}
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color:white;
+    padding:5px;
+    bottom: 30px;
+    position: relative;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+  }
+  .item1{
+      background-color: white!important;
+      width:430px ;
+      height: 400px;
+      box-shadow: 2px 2px 2px 2px rgb(196, 194, 194);
+      margin: 10px;
+
+  }
+  
+  .item2{
+    background-color: white !important;
+    width:430px ;
+      height: 400px;
+      box-shadow: 2px 2px 2px 2px rgb(221, 207, 207);
+      margin: 10px;
+
+}
+.item3{
+    background-color: white !important;
+    width:430px ;
+      height: 400px;
+      box-shadow: 2px 2px 2px 2px rgb(196, 194, 194);
+      margin: 10px;
+
+}
+.ab{
+    margin: 10px;
+    position: relative;
+    left:50px;
+}
+.ba{
+    position: relative;
+    right:50px;
+}
+.bc{
+    position: relative;
+    left:50px;
+
+}
+.cb{
+    position: relative;
+    right:50px;
+
+}
+.n{
+    font-size:12px;
+    position: relative;
+    left:40px;
+}
+.nm{
+    font-size:12px;
+    position: relative;
+    right:40px;
+ 
+}
+#part{
+background-color: white;
+height:350px;
+width:98%;
+left: 21px;
+box-shadow: 2px 2px 2px 2px rgb(196, 194, 194);
+
+}
+#sli{
+    top:50px;
+}
+#ab{
+    margin: 10px;
+    position: relative;
+    left:50px;
+    bottom:70px;
+ 
+}
+.view{
+    position: relative;
+    float: right;
+}
+#p{
+    position: relative;
+    left:80px;
+    bottom:70px;
+    color: black;
+    color: rgb(156, 113, 48);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* footer */
